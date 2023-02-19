@@ -1,0 +1,33 @@
+[2023-02-18T22:13:43.026+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales2.format_data_to_avro scheduled__2023-02-08T03:26:00+00:00 [queued]>
+[2023-02-18T22:13:43.032+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales2.format_data_to_avro scheduled__2023-02-08T03:26:00+00:00 [queued]>
+[2023-02-18T22:13:43.032+0200] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T22:13:43.032+0200] {taskinstance.py:1369} INFO - Starting attempt 4 of 4
+[2023-02-18T22:13:43.032+0200] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-18T22:13:43.037+0200] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): format_data_to_avro> on 2023-02-08 03:26:00+00:00
+[2023-02-18T22:13:43.041+0200] {standard_task_runner.py:52} INFO - Started process 31311 to run task
+[2023-02-18T22:13:43.045+0200] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'test_process_sales2', 'format_data_to_avro', 'scheduled__2023-02-08T03:26:00+00:00', '--job-id', '5010', '--raw', '--subdir', 'DAGS_FOLDER/process_sales/main2.py', '--cfg-path', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmprmi_6rve', '--error-file', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmp0kqqlx5m']
+[2023-02-18T22:13:43.046+0200] {standard_task_runner.py:80} INFO - Job 5010: Subtask format_data_to_avro
+[2023-02-18T22:13:43.071+0200] {task_command.py:371} INFO - Running <TaskInstance: test_process_sales2.format_data_to_avro scheduled__2023-02-08T03:26:00+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2023-02-18T22:13:43.107+0200] {taskinstance.py:1581} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=admin@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=test_process_sales2
+AIRFLOW_CTX_TASK_ID=format_data_to_avro
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-08T03:26:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=4
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-08T03:26:00+00:00
+[2023-02-18T22:13:43.110+0200] {taskinstance.py:1902} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py", line 57, in format_data_to_avro
+    for d in data['data']
+KeyError: 'data'
+[2023-02-18T22:13:43.113+0200] {taskinstance.py:1407} INFO - Marking task as FAILED. dag_id=test_process_sales2, task_id=format_data_to_avro, execution_date=20230208T032600, start_date=20230218T201343, end_date=20230218T201343
+[2023-02-18T22:13:43.117+0200] {standard_task_runner.py:92} ERROR - Failed to execute job 5010 for task format_data_to_avro ('data'; 31311)
+[2023-02-18T22:13:43.151+0200] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-02-18T22:13:43.164+0200] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

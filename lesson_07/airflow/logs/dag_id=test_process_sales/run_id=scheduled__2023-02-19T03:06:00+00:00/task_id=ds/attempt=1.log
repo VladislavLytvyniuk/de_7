@@ -1,0 +1,24 @@
+[2023-02-19T13:44:21.237+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales.ds scheduled__2023-02-19T03:06:00+00:00 [queued]>
+[2023-02-19T13:44:21.250+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales.ds scheduled__2023-02-19T03:06:00+00:00 [queued]>
+[2023-02-19T13:44:21.250+0200] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-19T13:44:21.250+0200] {taskinstance.py:1369} INFO - Starting attempt 1 of 4
+[2023-02-19T13:44:21.250+0200] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-19T13:44:21.256+0200] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): ds> on 2023-02-19 03:06:00+00:00
+[2023-02-19T13:44:21.261+0200] {standard_task_runner.py:52} INFO - Started process 57032 to run task
+[2023-02-19T13:44:21.265+0200] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'test_process_sales', 'ds', 'scheduled__2023-02-19T03:06:00+00:00', '--job-id', '5166', '--raw', '--subdir', 'DAGS_FOLDER/process_sales/main.py', '--cfg-path', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmp7p2nef12', '--error-file', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmpgmsluc66']
+[2023-02-19T13:44:21.268+0200] {standard_task_runner.py:80} INFO - Job 5166: Subtask ds
+[2023-02-19T13:44:21.303+0200] {task_command.py:371} INFO - Running <TaskInstance: test_process_sales.ds scheduled__2023-02-19T03:06:00+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2023-02-19T13:44:21.379+0200] {taskinstance.py:1581} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=admin@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=test_process_sales
+AIRFLOW_CTX_TASK_ID=ds
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-19T03:06:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-19T03:06:00+00:00
+[2023-02-19T13:44:21.380+0200] {python.py:173} INFO - Done. Returned value was: None
+[2023-02-19T13:44:21.385+0200] {taskinstance.py:1407} INFO - Marking task as SUCCESS. dag_id=test_process_sales, task_id=ds, execution_date=20230219T030600, start_date=20230219T114421, end_date=20230219T114421
+[2023-02-19T13:44:21.412+0200] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-19T13:44:21.424+0200] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

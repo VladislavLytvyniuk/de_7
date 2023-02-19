@@ -1,0 +1,15 @@
+[2023-02-12T04:13:37.225+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales.wrire_to_json scheduled__2023-02-12T01:55:00+00:00 [queued]>
+[2023-02-12T04:13:37.231+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales.wrire_to_json scheduled__2023-02-12T01:55:00+00:00 [queued]>
+[2023-02-12T04:13:37.231+0200] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-12T04:13:37.231+0200] {taskinstance.py:1369} INFO - Starting attempt 1 of 4
+[2023-02-12T04:13:37.231+0200] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-12T04:13:37.236+0200] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): wrire_to_json> on 2023-02-12 01:55:00+00:00
+[2023-02-12T04:13:37.240+0200] {standard_task_runner.py:52} INFO - Started process 47739 to run task
+[2023-02-12T04:13:37.243+0200] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'test_process_sales', 'wrire_to_json', 'scheduled__2023-02-12T01:55:00+00:00', '--job-id', '3161', '--raw', '--subdir', 'DAGS_FOLDER/process_sales/mainS.py', '--cfg-path', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmpiszec_ip', '--error-file', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmpiuyui3lb']
+[2023-02-12T04:13:37.245+0200] {standard_task_runner.py:80} INFO - Job 3161: Subtask wrire_to_json
+[2023-02-12T05:32:31.075+0200] {local_task_job.py:144} ERROR - Heartbeat time limit exceeded!
+[2023-02-12T05:32:31.087+0200] {process_utils.py:125} INFO - Sending Signals.SIGTERM to group 47739. PIDs of all processes in the group: [47739]
+[2023-02-12T05:32:31.088+0200] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 47739
+[2023-02-12T05:32:31.093+0200] {process_utils.py:75} INFO - Process psutil.Process(pid=47739, status='terminated', exitcode=<Negsignal.SIGTERM: -15>, started='04:13:37') (47739) terminated with exit code Negsignal.SIGTERM

@@ -1,0 +1,24 @@
+[2023-02-19T09:52:56.958+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales2.get_data_from_api scheduled__2023-02-08T03:52:00+00:00 [queued]>
+[2023-02-19T09:52:56.963+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales2.get_data_from_api scheduled__2023-02-08T03:52:00+00:00 [queued]>
+[2023-02-19T09:52:56.963+0200] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-19T09:52:56.963+0200] {taskinstance.py:1369} INFO - Starting attempt 1 of 4
+[2023-02-19T09:52:56.964+0200] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-19T09:52:56.969+0200] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): get_data_from_api> on 2023-02-08 03:52:00+00:00
+[2023-02-19T09:52:56.973+0200] {standard_task_runner.py:52} INFO - Started process 43220 to run task
+[2023-02-19T09:52:56.977+0200] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'test_process_sales2', 'get_data_from_api', 'scheduled__2023-02-08T03:52:00+00:00', '--job-id', '5090', '--raw', '--subdir', 'DAGS_FOLDER/process_sales/main2.py', '--cfg-path', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmp5cx8ph2q', '--error-file', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmpbnjkwq3i']
+[2023-02-19T09:52:56.978+0200] {standard_task_runner.py:80} INFO - Job 5090: Subtask get_data_from_api
+[2023-02-19T09:52:57.004+0200] {task_command.py:371} INFO - Running <TaskInstance: test_process_sales2.get_data_from_api scheduled__2023-02-08T03:52:00+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2023-02-19T09:52:57.063+0200] {taskinstance.py:1581} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=admin@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=test_process_sales2
+AIRFLOW_CTX_TASK_ID=get_data_from_api
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-08T03:52:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-08T03:52:00+00:00
+[2023-02-19T09:52:57.375+0200] {python.py:173} INFO - Done. Returned value was: {'errors': {'date': ['Missing data for required field.']}}
+[2023-02-19T09:52:57.405+0200] {taskinstance.py:1407} INFO - Marking task as SUCCESS. dag_id=test_process_sales2, task_id=get_data_from_api, execution_date=20230208T035200, start_date=20230219T075256, end_date=20230219T075257
+[2023-02-19T09:52:57.427+0200] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-19T09:52:57.451+0200] {local_task_job.py:279} INFO - 1 downstream tasks scheduled from follow-on schedule check

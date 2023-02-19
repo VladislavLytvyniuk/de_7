@@ -1,0 +1,24 @@
+[2023-02-10T23:38:18.094+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales.wrire_to_json scheduled__2023-02-09T03:35:00+00:00 [queued]>
+[2023-02-10T23:38:18.100+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales.wrire_to_json scheduled__2023-02-09T03:35:00+00:00 [queued]>
+[2023-02-10T23:38:18.100+0200] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-10T23:38:18.100+0200] {taskinstance.py:1369} INFO - Starting attempt 1 of 4
+[2023-02-10T23:38:18.101+0200] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-10T23:38:18.105+0200] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): wrire_to_json> on 2023-02-09 03:35:00+00:00
+[2023-02-10T23:38:18.110+0200] {standard_task_runner.py:52} INFO - Started process 22714 to run task
+[2023-02-10T23:38:18.113+0200] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'test_process_sales', 'wrire_to_json', 'scheduled__2023-02-09T03:35:00+00:00', '--job-id', '1360', '--raw', '--subdir', 'DAGS_FOLDER/process_sales/mainS.py', '--cfg-path', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmpuompnyjc', '--error-file', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmpl4wcu2gl']
+[2023-02-10T23:38:18.115+0200] {standard_task_runner.py:80} INFO - Job 1360: Subtask wrire_to_json
+[2023-02-10T23:38:18.142+0200] {task_command.py:371} INFO - Running <TaskInstance: test_process_sales.wrire_to_json scheduled__2023-02-09T03:35:00+00:00 [running]> on host admins-MacBook-Air-2.local
+[2023-02-10T23:38:18.169+0200] {taskinstance.py:1581} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=admin@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=test_process_sales
+AIRFLOW_CTX_TASK_ID=wrire_to_json
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-09T03:35:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-09T03:35:00+00:00
+[2023-02-10T23:38:18.172+0200] {python.py:173} INFO - Done. Returned value was: None
+[2023-02-10T23:38:18.176+0200] {taskinstance.py:1407} INFO - Marking task as SUCCESS. dag_id=test_process_sales, task_id=wrire_to_json, execution_date=20230209T033500, start_date=20230210T213818, end_date=20230210T213818
+[2023-02-10T23:38:18.214+0200] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-02-10T23:38:18.226+0200] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,36 @@
+[2023-02-10T22:37:07.601+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales.main2 scheduled__2023-01-10T01:20:00+00:00 [queued]>
+[2023-02-10T22:37:07.607+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales.main2 scheduled__2023-01-10T01:20:00+00:00 [queued]>
+[2023-02-10T22:37:07.608+0200] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-10T22:37:07.608+0200] {taskinstance.py:1369} INFO - Starting attempt 2 of 4
+[2023-02-10T22:37:07.608+0200] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-10T22:37:07.614+0200] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): main2> on 2023-01-10 01:20:00+00:00
+[2023-02-10T22:37:07.619+0200] {standard_task_runner.py:52} INFO - Started process 11895 to run task
+[2023-02-10T22:37:07.623+0200] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'test_process_sales', 'main2', 'scheduled__2023-01-10T01:20:00+00:00', '--job-id', '578', '--raw', '--subdir', 'DAGS_FOLDER/process_sales/mainS.py', '--cfg-path', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmpen4sr1fg', '--error-file', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmp8lxrwyte']
+[2023-02-10T22:37:07.624+0200] {standard_task_runner.py:80} INFO - Job 578: Subtask main2
+[2023-02-10T22:37:07.656+0200] {task_command.py:371} INFO - Running <TaskInstance: test_process_sales.main2 scheduled__2023-01-10T01:20:00+00:00 [running]> on host admins-MacBook-Air-2.local
+[2023-02-10T22:37:07.685+0200] {taskinstance.py:1581} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=admin@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=test_process_sales
+AIRFLOW_CTX_TASK_ID=main2
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-10T01:20:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-10T01:20:00+00:00
+[2023-02-10T22:37:07.685+0200] {mainS.py:73} INFO - Your custom error1
+[2023-02-10T22:37:07.685+0200] {mainS.py:74} INFO - Your custom error2
+[2023-02-10T22:37:07.686+0200] {logging_mixin.py:115} INFO - Your custom error3
+[2023-02-10T22:37:07.686+0200] {taskinstance.py:1902} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/mainS.py", line 76, in main2
+    pprint('Your custom error4')
+TypeError: 'module' object is not callable
+[2023-02-10T22:37:07.689+0200] {taskinstance.py:1407} INFO - Marking task as UP_FOR_RETRY. dag_id=test_process_sales, task_id=main2, execution_date=20230110T012000, start_date=20230210T203707, end_date=20230210T203707
+[2023-02-10T22:37:07.694+0200] {standard_task_runner.py:92} ERROR - Failed to execute job 578 for task main2 ('module' object is not callable; 11895)
+[2023-02-10T22:37:07.723+0200] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-02-10T22:37:07.735+0200] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check

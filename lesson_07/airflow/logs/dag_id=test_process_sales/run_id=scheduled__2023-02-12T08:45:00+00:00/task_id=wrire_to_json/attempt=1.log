@@ -1,0 +1,15 @@
+[2023-02-12T12:05:27.186+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales.wrire_to_json scheduled__2023-02-12T08:45:00+00:00 [queued]>
+[2023-02-12T12:05:27.192+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales.wrire_to_json scheduled__2023-02-12T08:45:00+00:00 [queued]>
+[2023-02-12T12:05:27.192+0200] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-12T12:05:27.192+0200] {taskinstance.py:1369} INFO - Starting attempt 1 of 4
+[2023-02-12T12:05:27.192+0200] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-12T12:05:27.197+0200] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): wrire_to_json> on 2023-02-12 08:45:00+00:00
+[2023-02-12T12:05:27.201+0200] {standard_task_runner.py:52} INFO - Started process 48704 to run task
+[2023-02-12T12:05:27.205+0200] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'test_process_sales', 'wrire_to_json', 'scheduled__2023-02-12T08:45:00+00:00', '--job-id', '3326', '--raw', '--subdir', 'DAGS_FOLDER/process_sales/mainS.py', '--cfg-path', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmp8_ez3ubr', '--error-file', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmpxvjp7rnd']
+[2023-02-12T12:05:27.206+0200] {standard_task_runner.py:80} INFO - Job 3326: Subtask wrire_to_json
+[2023-02-12T12:30:17.251+0200] {local_task_job.py:193} ERROR - The recorded hostname 1.0.0.127.in-addr.arpa does not match this instance's hostname admins-MacBook-Air-2.local
+[2023-02-12T12:30:17.271+0200] {process_utils.py:125} INFO - Sending Signals.SIGTERM to group 48704. PIDs of all processes in the group: [48704]
+[2023-02-12T12:30:17.272+0200] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 48704
+[2023-02-12T12:30:17.277+0200] {process_utils.py:75} INFO - Process psutil.Process(pid=48704, status='terminated', exitcode=<Negsignal.SIGTERM: -15>, started='12:05:27') (48704) terminated with exit code Negsignal.SIGTERM

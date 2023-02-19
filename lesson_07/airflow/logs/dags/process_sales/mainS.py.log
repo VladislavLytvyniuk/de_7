@@ -1,0 +1,72 @@
+[2023-02-10T21:31:43.115+0200] {processor.py:153} INFO - Started process (PID=48200) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/mainS.py
+[2023-02-10T21:31:43.118+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/mainS.py for tasks to queue
+[2023-02-10T21:31:43.118+0200] {logging_mixin.py:115} INFO - [2023-02-10T21:31:43.118+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/mainS.py
+[2023-02-10T21:31:43.163+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/mainS.py
+[2023-02-10T21:31:43.970+0200] {processor.py:164} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1802, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 719, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: serialized_dag
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/airflow/dag_processing/processor.py", line 155, in _run_file_processor
+    result: Tuple[int, int] = dag_file_processor.process_file(
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/airflow/dag_processing/processor.py", line 659, in process_file
+    dagbag.sync_to_db()
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 71, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 616, in sync_to_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/tenacity/__init__.py", line 382, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/tenacity/__init__.py", line 360, in iter
+    raise retry_exc.reraise()
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/tenacity/__init__.py", line 193, in reraise
+    raise self.last_attempt.result()
+  File "/Users/v.lytvyniuk/opt/anaconda3/lib/python3.8/concurrent/futures/_base.py", line 432, in result
+    return self.__get_result()
+  File "/Users/v.lytvyniuk/opt/anaconda3/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 628, in sync_to_db
+    serialize_errors.extend(_serialize_dag_capturing_errors(dag, session))
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/airflow/models/dagbag.py", line 599, in _serialize_dag_capturing_errors
+    dag_was_updated = SerializedDagModel.write_dag(
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/airflow/utils/session.py", line 68, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/airflow/models/serialized_dag.py", line 138, in write_dag
+    session.query(literal(True))
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2810, in first
+    return self.limit(1)._iter().first()
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 2894, in _iter
+    result = self.session.execute(
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1689, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1614, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 325, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1481, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1845, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 2026, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 207, in raise_
+    raise exception
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1802, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 719, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: serialized_dag
+[SQL: SELECT ? AS anon_1 
+FROM serialized_dag 
+WHERE serialized_dag.dag_id = ? AND serialized_dag.last_updated > ?
+ LIMIT ? OFFSET ?]
+[parameters: (1, 'test_process_sales', '2023-02-10 19:31:13.969030', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)

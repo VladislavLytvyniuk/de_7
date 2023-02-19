@@ -1,0 +1,15 @@
+[2023-02-15T05:37:25.014+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales.extract_data_from_api scheduled__2023-02-15T03:25:00+00:00 [queued]>
+[2023-02-15T05:37:25.020+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales.extract_data_from_api scheduled__2023-02-15T03:25:00+00:00 [queued]>
+[2023-02-15T05:37:25.020+0200] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-15T05:37:25.020+0200] {taskinstance.py:1369} INFO - Starting attempt 1 of 4
+[2023-02-15T05:37:25.020+0200] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-15T05:37:25.025+0200] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): extract_data_from_api> on 2023-02-15 03:25:00+00:00
+[2023-02-15T05:37:25.030+0200] {standard_task_runner.py:52} INFO - Started process 82497 to run task
+[2023-02-15T05:37:25.033+0200] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'test_process_sales', 'extract_data_from_api', 'scheduled__2023-02-15T03:25:00+00:00', '--job-id', '4185', '--raw', '--subdir', 'DAGS_FOLDER/process_sales/main.py', '--cfg-path', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmpnv5_wgsj', '--error-file', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmpxi840bbz']
+[2023-02-15T05:37:25.035+0200] {standard_task_runner.py:80} INFO - Job 4185: Subtask extract_data_from_api
+[2023-02-15T07:57:05.786+0200] {local_task_job.py:144} ERROR - Heartbeat time limit exceeded!
+[2023-02-15T07:57:05.800+0200] {process_utils.py:125} INFO - Sending Signals.SIGTERM to group 82497. PIDs of all processes in the group: [82497]
+[2023-02-15T07:57:05.801+0200] {process_utils.py:80} INFO - Sending the signal Signals.SIGTERM to group 82497
+[2023-02-15T07:57:05.811+0200] {process_utils.py:75} INFO - Process psutil.Process(pid=82497, status='terminated', exitcode=<Negsignal.SIGTERM: -15>, started='05:37:25') (82497) terminated with exit code Negsignal.SIGTERM

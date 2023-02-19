@@ -1,0 +1,524 @@
+[2023-02-19T04:58:18.637+0200] {processor.py:153} INFO - Started process (PID=43120) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T04:58:18.640+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T04:58:18.640+0200] {logging_mixin.py:115} INFO - [2023-02-19T04:58:18.640+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T04:58:18.703+0200] {logging_mixin.py:115} INFO - [2023-02-19T04:58:18.703+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T04:58:18.710+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T04:58:18.729+0200] {processor.py:610} INFO - Executed failure callback for <TaskInstance: test_process_sales2.format_data_to_avro scheduled__2023-02-08T03:41:00+00:00 [failed]> in state failed
+[2023-02-19T04:58:18.737+0200] {logging_mixin.py:115} INFO - [2023-02-19T04:58:18.737+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T04:58:18.744+0200] {logging_mixin.py:115} INFO - [2023-02-19T04:58:18.744+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-08T03:51:00+00:00, run_after=2023-02-08T03:52:00+00:00
+[2023-02-19T04:58:18.749+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.112 seconds
+[2023-02-19T08:34:20.474+0200] {processor.py:153} INFO - Started process (PID=43194) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T08:34:20.477+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T08:34:20.477+0200] {logging_mixin.py:115} INFO - [2023-02-19T08:34:20.477+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T08:34:20.540+0200] {logging_mixin.py:115} INFO - [2023-02-19T08:34:20.540+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T08:34:20.548+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T08:34:20.561+0200] {logging_mixin.py:115} INFO - [2023-02-19T08:34:20.561+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T08:34:20.569+0200] {logging_mixin.py:115} INFO - [2023-02-19T08:34:20.568+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-08T03:52:00+00:00, run_after=2023-02-08T03:53:00+00:00
+[2023-02-19T08:34:20.574+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.101 seconds
+[2023-02-19T13:43:11.447+0200] {processor.py:153} INFO - Started process (PID=56695) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:11.450+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:43:11.451+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:11.451+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:11.575+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:11.575+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:43:11.584+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:11.605+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:11.605+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:43:11.615+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:11.615+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-08T03:53:00+00:00, run_after=2023-02-08T03:54:00+00:00
+[2023-02-19T13:43:11.623+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.176 seconds
+[2023-02-19T13:43:28.001+0200] {processor.py:153} INFO - Started process (PID=56769) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:28.005+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:43:28.005+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:28.005+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:28.068+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:28.068+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:43:28.075+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:28.089+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:28.089+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:43:28.096+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:28.096+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-08T03:54:00+00:00, run_after=2023-02-08T03:55:00+00:00
+[2023-02-19T13:43:28.102+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.101 seconds
+[2023-02-19T13:43:34.650+0200] {processor.py:153} INFO - Started process (PID=56798) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:34.653+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:43:34.653+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:34.653+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:34.716+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:34.716+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:43:34.723+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:34.736+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:34.736+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:43:34.743+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:34.743+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-08T03:55:00+00:00, run_after=2023-02-08T03:56:00+00:00
+[2023-02-19T13:43:34.749+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.099 seconds
+[2023-02-19T13:43:39.269+0200] {processor.py:153} INFO - Started process (PID=56839) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:39.272+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:43:39.272+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:39.272+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:39.336+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:39.336+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:43:39.343+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:39.357+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:39.357+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:43:39.364+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:39.364+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-08T03:56:00+00:00, run_after=2023-02-08T03:57:00+00:00
+[2023-02-19T13:43:39.370+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.101 seconds
+[2023-02-19T13:43:43.219+0200] {processor.py:153} INFO - Started process (PID=56857) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:43.221+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:43:43.222+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:43.222+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:43.291+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:43.291+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:43:43.299+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:43.314+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:43.314+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:43:43.322+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:43.322+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-08T03:57:00+00:00, run_after=2023-02-08T03:58:00+00:00
+[2023-02-19T13:43:43.329+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.111 seconds
+[2023-02-19T13:43:46.036+0200] {processor.py:153} INFO - Started process (PID=56869) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:46.039+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:43:46.039+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:46.039+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:46.115+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:46.115+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:43:46.123+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:46.137+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:46.137+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:43:46.145+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:46.145+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-08T03:58:00+00:00, run_after=2023-02-08T03:59:00+00:00
+[2023-02-19T13:43:46.151+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.116 seconds
+[2023-02-19T13:43:50.186+0200] {processor.py:153} INFO - Started process (PID=56886) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:50.189+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:43:50.189+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:50.189+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:50.253+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:50.253+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:43:50.260+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:50.274+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:50.274+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:43:50.281+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:50.281+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-08T03:59:00+00:00, run_after=2023-02-09T03:00:00+00:00
+[2023-02-19T13:43:50.288+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.102 seconds
+[2023-02-19T13:43:56.056+0200] {processor.py:153} INFO - Started process (PID=56914) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:56.059+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:43:56.059+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:56.059+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:56.123+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:56.122+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:43:56.130+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:43:56.143+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:56.143+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:43:56.150+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:43:56.150+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:00:00+00:00, run_after=2023-02-09T03:01:00+00:00
+[2023-02-19T13:43:56.157+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.102 seconds
+[2023-02-19T13:44:11.573+0200] {processor.py:153} INFO - Started process (PID=56984) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:11.577+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:44:11.577+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:11.577+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:11.640+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:11.640+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:44:11.647+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:11.661+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:11.661+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:44:11.669+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:11.668+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:01:00+00:00, run_after=2023-02-09T03:02:00+00:00
+[2023-02-19T13:44:11.675+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.102 seconds
+[2023-02-19T13:44:17.261+0200] {processor.py:153} INFO - Started process (PID=57012) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:17.264+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:44:17.264+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:17.264+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:17.333+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:17.333+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:44:17.341+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:17.355+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:17.355+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:44:17.363+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:17.363+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:02:00+00:00, run_after=2023-02-09T03:03:00+00:00
+[2023-02-19T13:44:17.369+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.108 seconds
+[2023-02-19T13:44:22.011+0200] {processor.py:153} INFO - Started process (PID=57033) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:22.015+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:44:22.015+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:22.015+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:22.091+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:22.091+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:44:22.099+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:22.115+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:22.115+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:44:22.125+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:22.124+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:03:00+00:00, run_after=2023-02-09T03:04:00+00:00
+[2023-02-19T13:44:22.131+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.120 seconds
+[2023-02-19T13:44:25.744+0200] {processor.py:153} INFO - Started process (PID=57051) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:25.748+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:44:25.748+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:25.748+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:25.814+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:25.814+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:44:25.821+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:25.835+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:25.835+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:44:25.844+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:25.844+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:04:00+00:00, run_after=2023-02-09T03:05:00+00:00
+[2023-02-19T13:44:25.850+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.106 seconds
+[2023-02-19T13:44:30.650+0200] {processor.py:153} INFO - Started process (PID=57071) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:30.652+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:44:30.653+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:30.653+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:30.716+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:30.716+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:44:30.724+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:30.737+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:30.737+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:44:30.744+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:30.744+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:05:00+00:00, run_after=2023-02-09T03:06:00+00:00
+[2023-02-19T13:44:30.751+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.101 seconds
+[2023-02-19T13:44:36.322+0200] {processor.py:153} INFO - Started process (PID=57096) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:36.325+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:44:36.325+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:36.325+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:36.395+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:36.395+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:44:36.402+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:36.417+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:36.417+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:44:36.430+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.108 seconds
+[2023-02-19T13:44:48.896+0200] {processor.py:153} INFO - Started process (PID=57153) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:48.900+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:44:48.900+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:48.900+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:48.963+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:48.963+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:44:48.970+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:48.983+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:48.983+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:44:48.996+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.101 seconds
+[2023-02-19T13:44:53.105+0200] {processor.py:153} INFO - Started process (PID=57174) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:53.108+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:44:53.108+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:53.108+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:53.173+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:53.173+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:44:53.180+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:53.195+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:53.195+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:44:53.202+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:53.202+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:06:00+00:00, run_after=2023-02-09T03:07:00+00:00
+[2023-02-19T13:44:53.207+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.102 seconds
+[2023-02-19T13:44:57.562+0200] {processor.py:153} INFO - Started process (PID=57195) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:57.565+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:44:57.565+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:57.565+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:57.630+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:57.630+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:44:57.638+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:44:57.652+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:44:57.652+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:44:57.665+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.103 seconds
+[2023-02-19T13:45:00.835+0200] {processor.py:153} INFO - Started process (PID=57211) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:00.838+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:45:00.838+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:00.838+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:00.902+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:00.902+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:45:00.909+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:00.923+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:00.923+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:45:00.935+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.101 seconds
+[2023-02-19T13:45:04.527+0200] {processor.py:153} INFO - Started process (PID=57227) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:04.531+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:45:04.532+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:04.532+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:04.598+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:04.598+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:45:04.605+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:04.618+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:04.618+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:45:04.630+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.104 seconds
+[2023-02-19T13:45:07.286+0200] {processor.py:153} INFO - Started process (PID=57239) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:07.290+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:45:07.290+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:07.290+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:07.375+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:07.375+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:45:07.383+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:07.398+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:07.397+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:45:07.411+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.126 seconds
+[2023-02-19T13:45:12.911+0200] {processor.py:153} INFO - Started process (PID=57264) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:12.914+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:45:12.914+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:12.914+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:12.979+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:12.979+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:45:12.986+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:13.000+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:13.000+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:45:13.013+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.102 seconds
+[2023-02-19T13:45:19.658+0200] {processor.py:153} INFO - Started process (PID=57295) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:19.661+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:45:19.661+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:19.661+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:19.757+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:19.757+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:45:19.771+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:19.789+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:19.789+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:45:19.796+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:19.796+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:07:00+00:00, run_after=2023-02-09T03:08:00+00:00
+[2023-02-19T13:45:19.802+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.145 seconds
+[2023-02-19T13:45:31.440+0200] {processor.py:153} INFO - Started process (PID=57351) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:31.443+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:45:31.443+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:31.443+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:31.507+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:31.507+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:45:31.515+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:31.530+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:31.530+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:45:31.539+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:31.539+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:08:00+00:00, run_after=2023-02-09T03:09:00+00:00
+[2023-02-19T13:45:31.545+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.105 seconds
+[2023-02-19T13:45:37.933+0200] {processor.py:153} INFO - Started process (PID=57380) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:37.937+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:45:37.937+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:37.937+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:38.001+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:38.001+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:45:38.008+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:38.022+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:38.022+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:45:38.029+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:38.029+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:09:00+00:00, run_after=2023-02-09T03:10:00+00:00
+[2023-02-19T13:45:38.035+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.102 seconds
+[2023-02-19T13:45:43.570+0200] {processor.py:153} INFO - Started process (PID=57404) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:43.573+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:45:43.573+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:43.573+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:43.637+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:43.637+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:45:43.644+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:43.658+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:43.658+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:45:43.666+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:43.666+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:10:00+00:00, run_after=2023-02-09T03:11:00+00:00
+[2023-02-19T13:45:43.672+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.102 seconds
+[2023-02-19T13:45:48.392+0200] {processor.py:153} INFO - Started process (PID=57426) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:48.396+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:45:48.396+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:48.396+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:48.464+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:48.464+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:45:48.471+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:48.486+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:48.486+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:45:48.493+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:48.493+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:11:00+00:00, run_after=2023-02-09T03:12:00+00:00
+[2023-02-19T13:45:48.499+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.107 seconds
+[2023-02-19T13:45:53.750+0200] {processor.py:153} INFO - Started process (PID=57451) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:53.753+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:45:53.753+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:53.753+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:53.817+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:53.817+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:45:53.824+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:53.838+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:53.838+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:45:53.845+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:53.845+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:12:00+00:00, run_after=2023-02-09T03:13:00+00:00
+[2023-02-19T13:45:53.851+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.102 seconds
+[2023-02-19T13:45:59.431+0200] {processor.py:153} INFO - Started process (PID=57476) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:59.434+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:45:59.434+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:59.434+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:59.499+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:59.499+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:45:59.506+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:45:59.520+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:59.520+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:45:59.527+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:45:59.527+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:13:00+00:00, run_after=2023-02-09T03:14:00+00:00
+[2023-02-19T13:45:59.533+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.103 seconds
+[2023-02-19T13:46:10.191+0200] {processor.py:153} INFO - Started process (PID=57528) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:10.195+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:46:10.196+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:10.196+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:10.265+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:10.265+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:46:10.273+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:10.288+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:10.288+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:46:10.297+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:10.297+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:14:00+00:00, run_after=2023-02-09T03:15:00+00:00
+[2023-02-19T13:46:10.306+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.115 seconds
+[2023-02-19T13:46:17.793+0200] {processor.py:153} INFO - Started process (PID=57562) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:17.797+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:46:17.797+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:17.797+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:17.862+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:17.862+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:46:17.869+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:17.882+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:17.882+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:46:17.890+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:17.889+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:15:00+00:00, run_after=2023-02-09T03:16:00+00:00
+[2023-02-19T13:46:17.895+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.103 seconds
+[2023-02-19T13:46:25.738+0200] {processor.py:153} INFO - Started process (PID=57603) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:25.741+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:46:25.741+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:25.741+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:25.805+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:25.805+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:46:25.812+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:25.826+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:25.825+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:46:25.833+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:25.833+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:16:00+00:00, run_after=2023-02-09T03:17:00+00:00
+[2023-02-19T13:46:25.838+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.100 seconds
+[2023-02-19T13:46:31.132+0200] {processor.py:153} INFO - Started process (PID=57627) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:31.135+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:46:31.135+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:31.135+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:31.199+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:31.199+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:46:31.206+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:31.220+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:31.220+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:46:31.228+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:31.228+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:17:00+00:00, run_after=2023-02-09T03:18:00+00:00
+[2023-02-19T13:46:31.234+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.102 seconds
+[2023-02-19T13:46:34.663+0200] {processor.py:153} INFO - Started process (PID=57642) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:34.666+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:46:34.666+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:34.666+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:34.729+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:34.729+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:46:34.737+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:34.750+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:34.750+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:46:34.757+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:34.757+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:18:00+00:00, run_after=2023-02-09T03:19:00+00:00
+[2023-02-19T13:46:34.763+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.100 seconds
+[2023-02-19T13:46:39.444+0200] {processor.py:153} INFO - Started process (PID=57680) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:39.447+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:46:39.447+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:39.447+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:39.510+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:39.510+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:46:39.517+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:39.531+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:39.531+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:46:39.538+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:39.538+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:19:00+00:00, run_after=2023-02-09T03:20:00+00:00
+[2023-02-19T13:46:39.543+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.100 seconds
+[2023-02-19T13:46:51.984+0200] {processor.py:153} INFO - Started process (PID=57741) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:51.987+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:46:51.987+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:51.987+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:52.076+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:52.076+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:46:52.084+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:52.098+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:52.098+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:46:52.105+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:52.105+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:21:00+00:00, run_after=2023-02-09T03:22:00+00:00
+[2023-02-19T13:46:52.111+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.128 seconds
+[2023-02-19T13:46:58.720+0200] {processor.py:153} INFO - Started process (PID=57775) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:58.723+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:46:58.724+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:58.724+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:58.788+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:58.788+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:46:58.795+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:46:58.809+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:46:58.809+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:46:58.822+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.102 seconds
+[2023-02-19T13:47:05.385+0200] {processor.py:153} INFO - Started process (PID=57811) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:05.388+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:47:05.388+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:05.388+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:05.452+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:05.452+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:47:05.459+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:05.472+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:05.472+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:47:05.480+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:05.479+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:22:00+00:00, run_after=2023-02-09T03:23:00+00:00
+[2023-02-19T13:47:05.485+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.101 seconds
+[2023-02-19T13:47:10.667+0200] {processor.py:153} INFO - Started process (PID=57841) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:10.670+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:47:10.670+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:10.670+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:10.733+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:10.733+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:47:10.741+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:10.754+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:10.754+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:47:10.766+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.100 seconds
+[2023-02-19T13:47:13.971+0200] {processor.py:153} INFO - Started process (PID=57855) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:13.974+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:47:13.974+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:13.974+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:14.037+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:14.037+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:47:14.044+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:14.059+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:14.059+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:47:14.071+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.101 seconds
+[2023-02-19T13:47:16.662+0200] {processor.py:153} INFO - Started process (PID=57868) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:16.665+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:47:16.665+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:16.665+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:16.732+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:16.732+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:47:16.740+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:16.753+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:16.753+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:47:16.766+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.104 seconds
+[2023-02-19T13:47:25.595+0200] {processor.py:153} INFO - Started process (PID=57911) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:25.599+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:47:25.599+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:25.599+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:25.663+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:25.663+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:47:25.671+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:25.685+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:25.685+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:47:25.692+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:25.692+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:23:00+00:00, run_after=2023-02-09T03:24:00+00:00
+[2023-02-19T13:47:25.698+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.103 seconds
+[2023-02-19T13:47:30.775+0200] {processor.py:153} INFO - Started process (PID=57932) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:30.777+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:47:30.778+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:30.778+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:30.842+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:30.841+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:47:30.849+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:30.862+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:30.862+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:47:30.874+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.100 seconds
+[2023-02-19T13:47:35.758+0200] {processor.py:153} INFO - Started process (PID=57956) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:35.761+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:47:35.761+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:35.761+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:35.825+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:35.825+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:47:35.832+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:35.845+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:35.845+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:47:35.858+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.100 seconds
+[2023-02-19T13:47:40.724+0200] {processor.py:153} INFO - Started process (PID=57980) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:40.726+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:47:40.727+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:40.726+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:40.790+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:40.790+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:47:40.797+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:40.811+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:40.811+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:47:40.818+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:40.818+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:24:00+00:00, run_after=2023-02-09T03:25:00+00:00
+[2023-02-19T13:47:40.824+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.101 seconds
+[2023-02-19T13:47:45.179+0200] {processor.py:153} INFO - Started process (PID=58001) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:45.183+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:47:45.187+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:45.187+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:45.253+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:45.253+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:47:45.260+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:45.274+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:45.274+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:47:45.282+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:45.281+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:25:00+00:00, run_after=2023-02-09T03:26:00+00:00
+[2023-02-19T13:47:45.287+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.109 seconds
+[2023-02-19T13:47:52.555+0200] {processor.py:153} INFO - Started process (PID=58030) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:52.558+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:47:52.558+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:52.558+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:52.624+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:52.624+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:47:52.631+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:47:52.645+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:52.645+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:47:52.652+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:47:52.652+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:26:00+00:00, run_after=2023-02-09T03:27:00+00:00
+[2023-02-19T13:47:52.658+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.103 seconds
+[2023-02-19T13:48:04.866+0200] {processor.py:153} INFO - Started process (PID=58107) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:04.870+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:48:04.870+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:04.870+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:04.936+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:04.936+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:48:04.944+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:04.958+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:04.958+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:48:04.965+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:04.965+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:27:00+00:00, run_after=2023-02-09T03:28:00+00:00
+[2023-02-19T13:48:04.971+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.105 seconds
+[2023-02-19T13:48:11.543+0200] {processor.py:153} INFO - Started process (PID=58139) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:11.547+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:48:11.547+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:11.547+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:11.617+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:11.617+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:48:11.625+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:11.639+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:11.638+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:48:11.646+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:11.646+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:28:00+00:00, run_after=2023-02-09T03:29:00+00:00
+[2023-02-19T13:48:11.652+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.109 seconds
+[2023-02-19T13:48:18.004+0200] {processor.py:153} INFO - Started process (PID=58169) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:18.007+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:48:18.007+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:18.007+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:18.072+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:18.072+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:48:18.080+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:18.095+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:18.095+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:48:18.103+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:18.103+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:29:00+00:00, run_after=2023-02-09T03:30:00+00:00
+[2023-02-19T13:48:18.109+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.106 seconds
+[2023-02-19T13:48:23.708+0200] {processor.py:153} INFO - Started process (PID=58193) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:23.712+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:48:23.712+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:23.712+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:23.775+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:23.775+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:48:23.782+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:23.796+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:23.796+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:48:23.803+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:23.803+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:30:00+00:00, run_after=2023-02-09T03:31:00+00:00
+[2023-02-19T13:48:23.809+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.101 seconds
+[2023-02-19T13:48:30.566+0200] {processor.py:153} INFO - Started process (PID=58225) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:30.569+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:48:30.570+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:30.570+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:30.633+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:30.633+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:48:30.641+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:30.654+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:30.654+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:48:30.661+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:30.661+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:31:00+00:00, run_after=2023-02-09T03:32:00+00:00
+[2023-02-19T13:48:30.667+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.102 seconds
+[2023-02-19T13:48:43.037+0200] {processor.py:153} INFO - Started process (PID=58285) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:43.041+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:48:43.041+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:43.041+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:43.148+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:43.148+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:48:43.156+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:43.170+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:43.170+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:48:43.178+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:43.177+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:32:00+00:00, run_after=2023-02-09T03:33:00+00:00
+[2023-02-19T13:48:43.184+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.147 seconds
+[2023-02-19T13:48:49.720+0200] {processor.py:153} INFO - Started process (PID=58316) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:49.723+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:48:49.723+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:49.723+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:49.816+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:49.816+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:48:49.824+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:49.839+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:49.839+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:48:49.846+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:49.846+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:33:00+00:00, run_after=2023-02-09T03:34:00+00:00
+[2023-02-19T13:48:49.853+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.133 seconds
+[2023-02-19T13:48:55.716+0200] {processor.py:153} INFO - Started process (PID=58344) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:55.719+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:48:55.719+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:55.719+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:55.784+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:55.784+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:48:55.791+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:48:55.805+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:55.805+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:48:55.812+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:48:55.812+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:34:00+00:00, run_after=2023-02-09T03:35:00+00:00
+[2023-02-19T13:48:55.819+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.103 seconds
+[2023-02-19T13:49:00.326+0200] {processor.py:153} INFO - Started process (PID=58366) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:00.330+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:49:00.330+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:00.330+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:00.396+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:00.396+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:49:00.404+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:00.419+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:00.419+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:49:00.426+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:00.426+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:35:00+00:00, run_after=2023-02-09T03:36:00+00:00
+[2023-02-19T13:49:00.433+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.107 seconds
+[2023-02-19T13:49:04.010+0200] {processor.py:153} INFO - Started process (PID=58386) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:04.013+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:49:04.013+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:04.013+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:04.080+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:04.080+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:49:04.088+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:04.101+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:04.101+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:49:04.109+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:04.109+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:36:00+00:00, run_after=2023-02-09T03:37:00+00:00
+[2023-02-19T13:49:04.115+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.105 seconds
+[2023-02-19T13:49:06.847+0200] {processor.py:153} INFO - Started process (PID=58401) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:06.850+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:49:06.850+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:06.850+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:06.915+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:06.915+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:49:06.923+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:06.936+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:06.936+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:49:06.944+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:06.944+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:37:00+00:00, run_after=2023-02-09T03:38:00+00:00
+[2023-02-19T13:49:06.950+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.103 seconds
+[2023-02-19T13:49:11.282+0200] {processor.py:153} INFO - Started process (PID=58423) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:11.285+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:49:11.285+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:11.285+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:11.349+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:11.349+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:49:11.357+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:11.371+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:11.371+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:49:11.379+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:11.378+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:38:00+00:00, run_after=2023-02-09T03:39:00+00:00
+[2023-02-19T13:49:11.385+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.104 seconds
+[2023-02-19T13:49:18.374+0200] {processor.py:153} INFO - Started process (PID=58457) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:18.377+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:49:18.377+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:18.377+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:18.443+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:18.443+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:49:18.450+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:18.464+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:18.464+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:49:18.472+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:18.472+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:39:00+00:00, run_after=2023-02-09T03:40:00+00:00
+[2023-02-19T13:49:18.478+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.104 seconds
+[2023-02-19T13:49:20.246+0200] {processor.py:153} INFO - Started process (PID=58466) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:20.249+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:49:20.249+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:20.249+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:20.313+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:20.313+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:49:20.320+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:20.334+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:20.334+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:49:20.341+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:20.341+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:40:00+00:00, run_after=2023-02-09T03:41:00+00:00
+[2023-02-19T13:49:20.347+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.102 seconds
+[2023-02-19T13:49:23.038+0200] {processor.py:153} INFO - Started process (PID=58476) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:23.041+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:49:23.041+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:23.041+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:23.107+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:23.107+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:49:23.115+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:23.130+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:23.130+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:49:23.138+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:23.138+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:41:00+00:00, run_after=2023-02-09T03:42:00+00:00
+[2023-02-19T13:49:23.145+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.107 seconds
+[2023-02-19T13:49:25.895+0200] {processor.py:153} INFO - Started process (PID=58490) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:25.898+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:49:25.898+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:25.898+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:25.962+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:25.962+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:49:25.969+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:25.983+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:25.983+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:49:25.991+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:25.991+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:42:00+00:00, run_after=2023-02-09T03:43:00+00:00
+[2023-02-19T13:49:25.998+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.103 seconds
+[2023-02-19T13:49:28.582+0200] {processor.py:153} INFO - Started process (PID=58503) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:28.585+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:49:28.585+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:28.585+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:28.649+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:28.649+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:49:28.656+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:28.670+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:28.670+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:49:28.677+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:28.677+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:43:00+00:00, run_after=2023-02-09T03:44:00+00:00
+[2023-02-19T13:49:28.683+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.101 seconds
+[2023-02-19T13:49:31.433+0200] {processor.py:153} INFO - Started process (PID=58515) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:31.437+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:49:31.437+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:31.437+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:31.507+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:31.507+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:49:31.515+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:31.529+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:31.529+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:49:31.538+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:31.537+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:44:00+00:00, run_after=2023-02-09T03:45:00+00:00
+[2023-02-19T13:49:31.544+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.111 seconds
+[2023-02-19T13:49:34.339+0200] {processor.py:153} INFO - Started process (PID=58526) to work on /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:34.342+0200] {processor.py:640} INFO - Processing file /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py for tasks to queue
+[2023-02-19T13:49:34.343+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:34.343+0200] {dagbag.py:508} INFO - Filling up the DagBag from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:34.407+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:34.407+0200] {base.py:68} INFO - Using connection ID 'FAKE_API_KEY' for task execution.
+[2023-02-19T13:49:34.415+0200] {processor.py:650} INFO - DAG(s) dict_keys(['test_process_sales2']) retrieved from /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py
+[2023-02-19T13:49:34.429+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:34.429+0200] {dag.py:2429} INFO - Sync 1 DAGs
+[2023-02-19T13:49:34.437+0200] {logging_mixin.py:115} INFO - [2023-02-19T13:49:34.437+0200] {dag.py:2977} INFO - Setting next_dagrun for test_process_sales2 to 2023-02-09T03:45:00+00:00, run_after=2023-02-09T03:46:00+00:00
+[2023-02-19T13:49:34.443+0200] {processor.py:161} INFO - Processing /Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/main2.py took 0.105 seconds

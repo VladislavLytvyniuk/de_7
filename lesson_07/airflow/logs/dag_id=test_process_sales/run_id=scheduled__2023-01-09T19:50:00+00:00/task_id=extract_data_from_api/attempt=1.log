@@ -1,0 +1,36 @@
+[2023-02-10T22:29:04.178+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales.extract_data_from_api scheduled__2023-01-09T19:50:00+00:00 [queued]>
+[2023-02-10T22:29:04.184+0200] {taskinstance.py:1171} INFO - Dependencies all met for <TaskInstance: test_process_sales.extract_data_from_api scheduled__2023-01-09T19:50:00+00:00 [queued]>
+[2023-02-10T22:29:04.184+0200] {taskinstance.py:1368} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-10T22:29:04.184+0200] {taskinstance.py:1369} INFO - Starting attempt 1 of 4
+[2023-02-10T22:29:04.184+0200] {taskinstance.py:1370} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-10T22:29:04.189+0200] {taskinstance.py:1389} INFO - Executing <Task(PythonOperator): extract_data_from_api> on 2023-01-09 19:50:00+00:00
+[2023-02-10T22:29:04.193+0200] {standard_task_runner.py:52} INFO - Started process 9609 to run task
+[2023-02-10T22:29:04.196+0200] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'test_process_sales', 'extract_data_from_api', 'scheduled__2023-01-09T19:50:00+00:00', '--job-id', '265', '--raw', '--subdir', 'DAGS_FOLDER/process_sales/mainS.py', '--cfg-path', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmpy7gj_qos', '--error-file', '/var/folders/1g/4w5x68gx3d92wgygb97jqbd40000gp/T/tmpcldxkta6']
+[2023-02-10T22:29:04.198+0200] {standard_task_runner.py:80} INFO - Job 265: Subtask extract_data_from_api
+[2023-02-10T22:29:04.223+0200] {task_command.py:371} INFO - Running <TaskInstance: test_process_sales.extract_data_from_api scheduled__2023-01-09T19:50:00+00:00 [running]> on host admins-MacBook-Air-2.local
+[2023-02-10T22:29:04.250+0200] {taskinstance.py:1581} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=admin@example.com
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=test_process_sales
+AIRFLOW_CTX_TASK_ID=extract_data_from_api
+AIRFLOW_CTX_EXECUTION_DATE=2023-01-09T19:50:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-01-09T19:50:00+00:00
+[2023-02-10T22:29:04.250+0200] {extract_data_from_api.py:40} INFO - Your custom error1
+[2023-02-10T22:29:04.250+0200] {extract_data_from_api.py:41} INFO - Your custom error2
+[2023-02-10T22:29:04.251+0200] {logging_mixin.py:115} INFO - Your custom error3
+[2023-02-10T22:29:04.251+0200] {taskinstance.py:1902} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/airflow_env/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/v.lytvyniuk/Documents/библиотечка/DE online1/git/de_7/lesson_07/dags/process_sales/extract_data_from_api.py", line 43, in main
+    pprint('Your custom error4')
+TypeError: 'module' object is not callable
+[2023-02-10T22:29:04.253+0200] {taskinstance.py:1407} INFO - Marking task as UP_FOR_RETRY. dag_id=test_process_sales, task_id=extract_data_from_api, execution_date=20230109T195000, start_date=20230210T202904, end_date=20230210T202904
+[2023-02-10T22:29:04.257+0200] {standard_task_runner.py:92} ERROR - Failed to execute job 265 for task extract_data_from_api ('module' object is not callable; 9609)
+[2023-02-10T22:29:04.301+0200] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-02-10T22:29:04.313+0200] {local_task_job.py:279} INFO - 0 downstream tasks scheduled from follow-on schedule check
