@@ -21,11 +21,17 @@ FAKE_API_HEADERS = {'Authorization': FAKE_API_KEY}
 
 
 def get_request_to_api(**context):
+    data = []
     DATE_NOW = context['dag_run'].conf.get('date_now')
     PARAMS = {'date' : DATE_NOW,  'page' : 1 }
-    data = requests.get(FAKE_API_URL, headers=FAKE_API_HEADERS, params=PARAMS)
-    return data.json()
-
+    while True:            
+        temp_data = requests.get(FAKE_API_URL, headers=FAKE_API_HEADERS, params=PARAMS).json() 
+        if type(temp_data) == dict:
+            break
+        
+        data += temp_data
+        PARAMS['page'] += 1
+    return data
 
 def format_data_to_avro(ti):
     schema_str = """
