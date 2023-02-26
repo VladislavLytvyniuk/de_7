@@ -1,2 +1,2 @@
 fastavro==1.7.2
-
+google-cloud-storage==2.7.0
