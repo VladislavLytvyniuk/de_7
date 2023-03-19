@@ -1,2 +1,5 @@
 test.*
 __pycache__
+test/
+.ipynb_checkpoints
+.DS_Store
